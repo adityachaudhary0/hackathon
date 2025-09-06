@@ -1,0 +1,14 @@
+# Ignore node_modules folders (huge and can be reinstalled with 'npm install')
+node_modules/
+functions/node_modules/
+firebase-simulator/node_modules/
+
+# Ignore environment variables and service account keys (VERY IMPORTANT!)
+serviceAccountKey.json
+.env
+.env.local
+
+# Firebase and build files
+.firebase/
+firebase-debug.log*
+npm-debug.log*
